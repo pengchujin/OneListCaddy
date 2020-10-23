@@ -42,7 +42,7 @@
 
 域名：此 VPS 绑定的域名，Caddy 获取 SSL 用
 
-子目录：根目录文件名，比如共享 Onedrive 根路径下面的 share 文件夹，填 share 即可；不填则表示共享根目录。
+子目录：根目录文件名，比如共享 OneDrive 根路径下面的 share 文件夹，填 share 即可；不填则表示共享根目录。
 
 ```
 docker run -d --rm --name onelist -p 443:443 -p 80:80 pengchujin/onelist:0.14 授权链接 类型选择 域名 子目录 && sleep 3s && docker logs onelist
@@ -64,7 +64,7 @@ docker run -d --rm --name onelist -p 443:443 -p 80:80 pengchujin/onelist:0.14 ht
 docker logs onelist 
 ```
 
-如果没有日志，和有可能是授权链接错误。
+如果没有日志，很有可能是授权链接错误。
 
 停止共享：
 
